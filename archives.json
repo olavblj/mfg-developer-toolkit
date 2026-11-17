@@ -1,0 +1,176 @@
+[
+  {
+    "name": "@mfg/achievements",
+    "version": "0.0.0",
+    "file": "mfg-achievements-0.0.0.tgz",
+    "sha256": "3eac8153ccaf9e7c4f7508e87f26ab60f03d40d13baac7f49a3d7eb2a3a957d5"
+  },
+  {
+    "name": "@mfg/admin",
+    "version": "0.0.0",
+    "file": "mfg-admin-0.0.0.tgz",
+    "sha256": "a61812e0f290908a56b25d4f8539691b50984f66b25c43790f0c59d85cb3dc01"
+  },
+  {
+    "name": "@mfg/ai",
+    "version": "0.0.0",
+    "file": "mfg-ai-0.0.0.tgz",
+    "sha256": "f98964c14d1fa08ab4796692a8ab6c072577e19e702dbe4c2923887171fde7bd"
+  },
+  {
+    "name": "@mfg/analytics",
+    "version": "0.0.0",
+    "file": "mfg-analytics-0.0.0.tgz",
+    "sha256": "f3ecbb06a7467ff7eb1cadb97961d98510254df0d339135e34479a27efcbc075"
+  },
+  {
+    "name": "@mfg/audio",
+    "version": "0.0.0",
+    "file": "mfg-audio-0.0.0.tgz",
+    "sha256": "109810d7f0e3e5a5e28c90bbb65230b6c5414ac34e7d63972e25c2fdecd5d114"
+  },
+  {
+    "name": "@mfg/character",
+    "version": "0.0.0",
+    "file": "mfg-character-0.0.0.tgz",
+    "sha256": "49ca763232de505c1811ed54c25d6eb4bde311d396f00cb5085614cd21f21e88"
+  },
+  {
+    "name": "@mfg/game-deploy",
+    "version": "0.0.0",
+    "file": "mfg-game-deploy-0.0.0.tgz",
+    "sha256": "af4bda1b3bcab22ad9724420d46b929337ed158c4898967e1d12c5808e127ac0"
+  },
+  {
+    "name": "@mfg/identity",
+    "version": "0.0.0",
+    "file": "mfg-identity-0.0.0.tgz",
+    "sha256": "79462ebef88787e7f740ae819c22ecd099f92dd8f469a9a51b1e15db49c3a1dc"
+  },
+  {
+    "name": "@mfg/input",
+    "version": "0.0.0",
+    "file": "mfg-input-0.0.0.tgz",
+    "sha256": "b16720bb625fa42da9e295b3159a459784cdd0043b4d36b6131ded78d2aa8062"
+  },
+  {
+    "name": "@mfg/laya",
+    "version": "0.0.0",
+    "file": "mfg-laya-0.0.0.tgz",
+    "sha256": "1d3126cc4aa8388162fcf9887d8c4444b8bb4797cff41035ed4e34c7acba7d98"
+  },
+  {
+    "name": "@mfg/leaderboards",
+    "version": "0.0.0",
+    "file": "mfg-leaderboards-0.0.0.tgz",
+    "sha256": "1eac64cc874bf00fd7c44941319aa3cfd09a235824ad66bb8536f98761f4418e"
+  },
+  {
+    "name": "@mfg/loot",
+    "version": "0.0.0",
+    "file": "mfg-loot-0.0.0.tgz",
+    "sha256": "22fefed2eeb8987f8a9675e9ba5eb1d0a59e5846ed886764ec915ec3d8d557cd"
+  },
+  {
+    "name": "@mfg/lore",
+    "version": "0.0.0",
+    "file": "mfg-lore-0.0.0.tgz",
+    "sha256": "cbf2febe84f61ec7ce786efed07835898932da47557ace5aa2d2f0c6cb46a197"
+  },
+  {
+    "name": "@mfg/marketplace",
+    "version": "0.0.0",
+    "file": "mfg-marketplace-0.0.0.tgz",
+    "sha256": "79f0c93c35500ce4ad21ebc55259a0ddd420586ce8db502d6b195af5bffaf039"
+  },
+  {
+    "name": "@mfg/pad",
+    "version": "0.0.0",
+    "file": "mfg-pad-0.0.0.tgz",
+    "sha256": "0eeac8570d975bb806b193d359dd03c41e3a4d5c705ffec7704c85f3edad6f79"
+  },
+  {
+    "name": "@mfg/plans",
+    "version": "0.0.0",
+    "file": "mfg-plans-0.0.0.tgz",
+    "sha256": "62e7c94d0c73bdc6df8b0c2dc06ecb93abc0aeb015e9f654b66c74fc2066cca5"
+  },
+  {
+    "name": "@mfg/posts",
+    "version": "0.0.0",
+    "file": "mfg-posts-0.0.0.tgz",
+    "sha256": "f91f482dce047babb1dd996b3a2f7c575764485808cf5d062ff408f977b75b46"
+  },
+  {
+    "name": "@mfg/realtime",
+    "version": "0.0.0",
+    "file": "mfg-realtime-0.0.0.tgz",
+    "sha256": "3b2fc8b1ba6ad5a80b7640656811fd886fd25d9b7c2c545ea42b5ebe21710d33"
+  },
+  {
+    "name": "@mfg/registry",
+    "version": "0.0.0",
+    "file": "mfg-registry-0.0.0.tgz",
+    "sha256": "90182741b89b92b935c9ddb8fb85468975ac02f4256355183e5fc0fcf59a1ea9"
+  },
+  {
+    "name": "@mfg/resources",
+    "version": "0.1.0",
+    "file": "mfg-resources-0.1.0.tgz",
+    "sha256": "6dfa06a462599f54f789e05d2e6e60acc7be37621da6feda22f19d2c3ddaca46"
+  },
+  {
+    "name": "@mfg/results",
+    "version": "0.0.0",
+    "file": "mfg-results-0.0.0.tgz",
+    "sha256": "789c6df1144248e92e983e8feaff9cc146547339561a394506092a7b055340d4"
+  },
+  {
+    "name": "@mfg/rollback",
+    "version": "0.0.0",
+    "file": "mfg-rollback-0.0.0.tgz",
+    "sha256": "60257dd4fc3e71acfb2c013ee208b59a164e31df3b89056e1b7926ca7030d5bb"
+  },
+  {
+    "name": "@mfg/sdk",
+    "version": "0.0.0",
+    "file": "mfg-sdk-0.0.0.tgz",
+    "sha256": "b6a1f51dd2120030c6888a10ab84abe0b4f766a4528d91aca2ebb5371928f71a"
+  },
+  {
+    "name": "@mfg/settings",
+    "version": "0.0.0",
+    "file": "mfg-settings-0.0.0.tgz",
+    "sha256": "cdf56ed338636a51e6bf0747eccc72af3c91d30d94d67c65fd8fcbfc8c674c02"
+  },
+  {
+    "name": "@mfg/sim",
+    "version": "0.0.0",
+    "file": "mfg-sim-0.0.0.tgz",
+    "sha256": "e0a6743997b8de99a4a34b457a359a57bde17a1b7f2042c18eb908348953c5ce"
+  },
+  {
+    "name": "@mfg/social",
+    "version": "0.0.0",
+    "file": "mfg-social-0.0.0.tgz",
+    "sha256": "ce17f58faabe9426d483f373aba285fdf27431b05290c6dd9e7d2fc02f2b1bfe"
+  },
+  {
+    "name": "@mfg/tuning",
+    "version": "0.0.0",
+    "file": "mfg-tuning-0.0.0.tgz",
+    "sha256": "286ed42adb0e81e43ab0cf53505fd3d4e94a1b930d8c79cf301541284eb1babd"
+  },
+  {
+    "name": "@mfg/ui",
+    "version": "0.0.0",
+    "file": "mfg-ui-0.0.0.tgz",
+    "sha256": "f5e8588c41c01f3a052527b4cd9df3c0842c945d1cb8c01f7298a766d253f8b3"
+  },
+  {
+    "name": "@mfg/voice",
+    "version": "0.0.0",
+    "file": "mfg-voice-0.0.0.tgz",
+    "sha256": "3a44468f96bef489995e3bf6a0a92a7c3b6984d83ed6b8d6efd299080e05d41c"
+  }
+]
