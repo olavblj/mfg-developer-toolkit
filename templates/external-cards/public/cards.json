@@ -1,0 +1,5 @@
+[
+  { "id": "acorn", "data": { "name": "Acorn", "power": 2 } },
+  { "id": "fox", "data": { "name": "Fox", "power": 7 } },
+  { "id": "moon", "data": { "name": "Moon", "power": 10 } }
+]

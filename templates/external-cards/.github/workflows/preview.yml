@@ -1,0 +1,15 @@
+name: MFG preview
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+  id-token: write
+jobs:
+  preview:
+    uses: olavblj/mfg-developer-toolkit/.github/workflows/external-game.yml@c836638626c1cae2d486b789fd7621000b8ce6f3
+    with:
+      project: ${{ vars.MFG_PROJECT_ID }}
+      version: 0.0.${{ github.run_number }}

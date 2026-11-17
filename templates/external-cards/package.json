@@ -1,0 +1,28 @@
+{
+  "name": "mfg-external-cards",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@mfg/sdk": "0.0.0",
+    "@mfg/ui": "0.0.0",
+    "@mfg/resources": "0.1.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@mfg/realtime": "0.0.0",
+    "@mfg/tuning": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "@vitejs/plugin-react": "6.1.2"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@12.4.1"
+}
