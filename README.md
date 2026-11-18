@@ -31,3 +31,7 @@ The reusable workflow pins trusted upload tooling to `9d3238f944fa41fcee1af74d25
 ## Distribution
 
 `vendor` contains the audited installable runtime archives; `archives.json` records their SHA-256 values. The `uploader` directory has its own frozen dependency lock and installs with lifecycle scripts disabled. Each template is independently copyable and carries its own archives, lockfile and MIT license. Character archives carry their separate asset notice.
+
+## Prepared production workflow
+
+`external-game-production.yml` contains the separately reviewed production API and audience coordinates and uses the same immutable trusted uploader. It is published for release preparation only: MFG production admission remains disabled until an explicitly authorized platform rollout. The existing staging workflow and template pins are unchanged. Do not substitute a branch or tag when configuring a production caller; use the verified commit containing this file and the matching server allowlist at rollout.
