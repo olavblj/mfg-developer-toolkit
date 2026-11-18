@@ -34,4 +34,18 @@ The reusable workflow pins trusted upload tooling to `9d3238f944fa41fcee1af74d25
 
 ## Prepared production workflow
 
-`external-game-production.yml` contains the separately reviewed production API and audience coordinates and uses the same immutable trusted uploader. It is published for release preparation only: MFG production admission remains disabled until an explicitly authorized platform rollout. The existing staging workflow and template pins are unchanged. Do not substitute a branch or tag when configuring a production caller; use the verified commit containing this file and the matching server allowlist at rollout.
+Production release preparation uses the separate immutable workflow below. MFG production admission remains disabled until an explicitly authorized platform rollout; publishing this code does not deploy or release the platform. Existing staging workflow and template pins remain unchanged.
+
+```yaml
+uses: olavblj/mfg-developer-toolkit/.github/workflows/external-game-production.yml@e1b31a3998e5c4ba5c446ccb55f1e49dea6c63b7
+```
+
+Copy your production caller into `.github/workflows/production.yml` and bind **that exact caller filename** in the production MFG project's repository settings. It is different from the reusable toolkit workflow path above. Set repository Actions variable `MFG_PRODUCTION_PROJECT_ID` to the production project ID and pass it as the workflow's `project` input. Set `mfg.game.ts`'s `slug` to the project's MFG address; a project ID and its address are different values.
+
+The corrected production workflow sets `VITE_MFG_SHELL_ORIGIN=https://memefreegames.com` during the unprivileged build. This is required by both starters' message bridges; their local default remains staging. For an equivalent local production build, run:
+
+```sh
+VITE_MFG_SHELL_ORIGIN=https://memefreegames.com pnpm build
+```
+
+Keep the caller and server allowlist pinned to the exact workflow commit shown above. The trusted uploader remains pinned to `9d3238f944fa41fcee1af74d25658641a0e46f80`. The production API is `https://memefreegames.com/api` and requested OIDC audience is `https://memefreegames.com/external`; staging continues using its separate API, audience and workflow commit.
