@@ -7,14 +7,14 @@
     "build": "tsc --noEmit && vite build"
   },
   "dependencies": {
-    "@mfg/sdk": "0.0.0",
-    "@mfg/ui": "0.0.0",
+    "@mfg/sdk": "npm:@memefreegames/sdk@0.1.0",
+    "@mfg/ui": "npm:@memefreegames/ui@0.1.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
-    "@mfg/input": "0.0.0",
-    "@mfg/sim": "0.0.0",
-    "@mfg/pad": "0.0.0",
-    "@mfg/realtime": "0.0.0"
+    "@mfg/input": "npm:@memefreegames/input@0.1.0",
+    "@mfg/sim": "npm:@memefreegames/sim@0.1.0",
+    "@mfg/pad": "npm:@memefreegames/pad@0.1.0",
+    "@mfg/realtime": "npm:@memefreegames/realtime@0.1.0"
   },
   "devDependencies": {
     "@types/react": "19.3.0",

@@ -2,6 +2,10 @@
 
 Build an independent browser game with MFG's MIT-licensed SDK, shared character and multiplayer libraries, and trusted preview uploader. No access to MFG's private repository is required. Third-party dependencies and character models retain their own licenses and notices; Universal, Pocket and Hero models carry CC0 provenance. The Sprout 3D model is excluded.
 
+## Add MFG to an existing game
+
+Install the SDK with `npm install @memefreegames/sdk@0.1.0`. Import its manifest helpers from `@memefreegames/sdk` and browser integration from `@memefreegames/sdk/client`. Code already importing `@mfg/sdk` can install the alias with `npm install @mfg/sdk@npm:@memefreegames/sdk@0.1.0`.
+
 ## Start a game
 
 Use Node 24.19.0 and pnpm 12.4.1. Clone this repository, copy either `templates/external-cards` or `templates/external-canvas` into your own game repository, then run:
@@ -12,7 +16,7 @@ pnpm dev
 pnpm build
 ```
 
-Copy the complete template, including `.github`, `vendor`, `LICENSE`, `pnpm-workspace.yaml` and `pnpm-lock.yaml`. Keep the bundled local dependency overrides so installation needs no private registry. Cards demonstrates a small solo game; Canvas includes TV Party phone and watch controls. Follow each game's README and manifest when adapting it.
+Copy the complete template, including `.github`, `LICENSE`, `pnpm-workspace.yaml` and `pnpm-lock.yaml`. Dependencies resolve from public npm using aliases for the existing `@mfg/*` imports. Cards demonstrates a small solo game; Canvas includes TV Party phone and watch controls. Follow each game's README and manifest when adapting it.
 
 ## Upload a production preview
 
@@ -66,4 +70,4 @@ The staging API is `https://staging.memefreegames.com/api`. The requested audien
 
 ## Distribution
 
-`vendor` contains the audited installable runtime archives; `archives.json` records their SHA-256 values. The `uploader` directory has its own frozen dependency lock and installs with lifecycle scripts disabled. Each template is independently copyable and carries its own archives, lockfile and MIT license. Character archives carry their separate asset notice.
+`vendor` contains the audited installable runtime archives; `archives.json` records their SHA-256 values. The `uploader` directory has its own frozen dependency lock and installs with lifecycle scripts disabled. Each template is independently copyable and carries its own pnpm lockfile and MIT license. The pinned uploader retains its audited archives. Character archives carry their separate asset notice.
