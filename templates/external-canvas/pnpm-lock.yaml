@@ -162,59 +162,28 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@mfg/achievements': file:vendor/mfg-achievements-0.0.0.tgz
-  '@mfg/admin': file:vendor/mfg-admin-0.0.0.tgz
-  '@mfg/ai': file:vendor/mfg-ai-0.0.0.tgz
-  '@mfg/analytics': file:vendor/mfg-analytics-0.0.0.tgz
-  '@mfg/audio': file:vendor/mfg-audio-0.0.0.tgz
-  '@mfg/character': file:vendor/mfg-character-0.0.0.tgz
-  '@mfg/game-deploy': file:vendor/mfg-game-deploy-0.0.0.tgz
-  '@mfg/identity': file:vendor/mfg-identity-0.0.0.tgz
-  '@mfg/input': file:vendor/mfg-input-0.0.0.tgz
-  '@mfg/laya': file:vendor/mfg-laya-0.0.0.tgz
-  '@mfg/leaderboards': file:vendor/mfg-leaderboards-0.0.0.tgz
-  '@mfg/loot': file:vendor/mfg-loot-0.0.0.tgz
-  '@mfg/lore': file:vendor/mfg-lore-0.0.0.tgz
-  '@mfg/marketplace': file:vendor/mfg-marketplace-0.0.0.tgz
-  '@mfg/pad': file:vendor/mfg-pad-0.0.0.tgz
-  '@mfg/plans': file:vendor/mfg-plans-0.0.0.tgz
-  '@mfg/posts': file:vendor/mfg-posts-0.0.0.tgz
-  '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
-  '@mfg/registry': file:vendor/mfg-registry-0.0.0.tgz
-  '@mfg/resources': file:vendor/mfg-resources-0.1.0.tgz
-  '@mfg/results': file:vendor/mfg-results-0.0.0.tgz
-  '@mfg/rollback': file:vendor/mfg-rollback-0.0.0.tgz
-  '@mfg/sdk': file:vendor/mfg-sdk-0.0.0.tgz
-  '@mfg/settings': file:vendor/mfg-settings-0.0.0.tgz
-  '@mfg/sim': file:vendor/mfg-sim-0.0.0.tgz
-  '@mfg/social': file:vendor/mfg-social-0.0.0.tgz
-  '@mfg/tuning': file:vendor/mfg-tuning-0.0.0.tgz
-  '@mfg/ui': file:vendor/mfg-ui-0.0.0.tgz
-  '@mfg/voice': file:vendor/mfg-voice-0.0.0.tgz
-
 importers:
 
   .:
     dependencies:
       '@mfg/input':
-        specifier: file:vendor/mfg-input-0.0.0.tgz
-        version: file:vendor/mfg-input-0.0.0.tgz
+        specifier: npm:@memefreegames/input@0.1.0
+        version: '@memefreegames/input@0.1.0'
       '@mfg/pad':
-        specifier: file:vendor/mfg-pad-0.0.0.tgz
-        version: file:vendor/mfg-pad-0.0.0.tgz
+        specifier: npm:@memefreegames/pad@0.1.0
+        version: '@memefreegames/pad@0.1.0'
       '@mfg/realtime':
-        specifier: file:vendor/mfg-realtime-0.0.0.tgz
-        version: file:vendor/mfg-realtime-0.0.0.tgz
+        specifier: npm:@memefreegames/realtime@0.1.0
+        version: '@memefreegames/realtime@0.1.0'
       '@mfg/sdk':
-        specifier: file:vendor/mfg-sdk-0.0.0.tgz
-        version: file:vendor/mfg-sdk-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(vite@8.3.5(@types/node@26.6.5))
+        specifier: npm:@memefreegames/sdk@0.1.0
+        version: '@memefreegames/sdk@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(vite@8.3.5(@types/node@26.6.5))'
       '@mfg/sim':
-        specifier: file:vendor/mfg-sim-0.0.0.tgz
-        version: file:vendor/mfg-sim-0.0.0.tgz
+        specifier: npm:@memefreegames/sim@0.1.0
+        version: '@memefreegames/sim@0.1.0'
       '@mfg/ui':
-        specifier: file:vendor/mfg-ui-0.0.0.tgz
-        version: file:vendor/mfg-ui-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))
+        specifier: npm:@memefreegames/ui@0.1.0
+        version: '@memefreegames/ui@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))'
       react:
         specifier: 19.3.1
         version: 19.3.1
@@ -267,21 +236,17 @@ packages:
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
 
-  '@mfg/achievements@file:vendor/mfg-achievements-0.0.0.tgz':
-    resolution: {integrity: sha512-gOnPqzKNwt7O1ex2qccZEuEK4VKtdwf3JXE4Vt40mpy+4TsjDRUaQpXcPcjnKyafrdmWjP5oV9d0Ac9Y+Rl8dw==, tarball: file:vendor/mfg-achievements-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/achievements@0.1.0':
+    resolution: {integrity: sha512-Zvru6lni54VX8l5cjI2JyZHN7ZIPIVK0Lm0HIMzT9Qtb5yw8XAJDIAd/R6bx36O64bJ4ke4f/KWVt6QAohSF2Q==}
 
-  '@mfg/ai@file:vendor/mfg-ai-0.0.0.tgz':
-    resolution: {integrity: sha512-aksp3X9D5VNQ1Y5/ZX1S9HeerbgzFFB9diSNxTnNAZcqut+ek3V7pZDbft3kLzARJkQDEzUIwSsRJwCTwz3k6w==, tarball: file:vendor/mfg-ai-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/ai@0.1.0':
+    resolution: {integrity: sha512-773Avs4KjQZD/Xp/Leu0YlrT0IHm+ti3wBTPv+WrvKQ3PHvJtbVn+hyfdK/OIQ6KEhC2gH1U6IcBF6lIA8QkTw==}
 
-  '@mfg/analytics@file:vendor/mfg-analytics-0.0.0.tgz':
-    resolution: {integrity: sha512-rIoHsl6H7cdYJxWo2QjOOu88ucR0NDOwDaKD0d6OgM2DLdpTsOad9tABFUoUQQkgDTysXDQYco5us0LeDn/DCw==, tarball: file:vendor/mfg-analytics-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/analytics@0.1.0':
+    resolution: {integrity: sha512-a9uGpLjqEYHA8tcgAI/4YZ7/VriKlqEOFrUjfzGzUk7grZhrOmpYAgCGtgcXZuHvxhsYI0VBTbdBW8jXs03ekg==}
 
-  '@mfg/character@file:vendor/mfg-character-0.0.0.tgz':
-    resolution: {integrity: sha512-GfUOX8yjeL8JQ0CyK9gabbq5BN2IQdxyZ88p6Vw/SnlO/pcsSbcLqGtwqIE4WzeyCWczhhAKNyCwmVWRVvYnzA==, tarball: file:vendor/mfg-character-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/character@0.1.0':
+    resolution: {integrity: sha512-F9DYgyIsTxhzXyTla9OJMIbZqecggiU+MdS8PEaSRsEhl4dVyyaUrsrUHpwjXNMLFDG9d4Lq6T8kLNu7I44Cmw==}
     peerDependencies:
       react: 19.3.1
       three: 0.186.0
@@ -291,90 +256,70 @@ packages:
       three:
         optional: true
 
-  '@mfg/identity@file:vendor/mfg-identity-0.0.0.tgz':
-    resolution: {integrity: sha512-uL8l/1Hs/GqazGTvaVzuceOabeqkYTS8ktSjxmimacz9YeDF0ifLnY9gxc+QReWnw76jNzDUNCwEO7tCdXhkHA==, tarball: file:vendor/mfg-identity-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/identity@0.1.0':
+    resolution: {integrity: sha512-j/Djwt1/I/dqqlnMIFnObRRo1e6IND664POp9XEF/lHNjXYIn0SmdL+MDxxuB3Js5b2FKPWgH0SgYbrICli5tg==}
 
-  '@mfg/input@file:vendor/mfg-input-0.0.0.tgz':
-    resolution: {integrity: sha512-BKTOGQ4S+p6cKmJmC45msZu6TvroQ/8rUK6/7VrPtGaRfXsWsaI9GHkOo+dIX58P/8bCE9mffJ2y1CDXRc5n6Q==, tarball: file:vendor/mfg-input-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/input@0.1.0':
+    resolution: {integrity: sha512-YnFYB8lS2jnur38g4+Ph8tfHzN/KmRoq8bsaQ2RFrtp1eZcijePKKWs0kEW/NG9pY+cfxWAFRUmkO/UeVueDtg==}
 
-  '@mfg/leaderboards@file:vendor/mfg-leaderboards-0.0.0.tgz':
-    resolution: {integrity: sha512-8bswT0ABDRybOiYuDIiyLsZfVtfFWDDLxT5BGEDLTEKvL1EOFmThdXQSfCcIkWWkppe7+r0Sj7o9U4wM5sRz4Q==, tarball: file:vendor/mfg-leaderboards-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/leaderboards@0.1.0':
+    resolution: {integrity: sha512-/mZ1gnqD+1CpqjUwYtG62vRLN8pk/9ZS7JXggoeWgRwwrItnkwS6HMSpXAggeY1XVn92+JX+Rp9WHYe9qgJSGg==}
 
-  '@mfg/loot@file:vendor/mfg-loot-0.0.0.tgz':
-    resolution: {integrity: sha512-Qeke3DNgMijBqn1hKqINSKb444eIGqQXl7iUSAxWJNb6iBYEjnmqrgB4L34dVGeKBjI+S0mfoLm/K8wM0Q63aA==, tarball: file:vendor/mfg-loot-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/loot@0.1.0':
+    resolution: {integrity: sha512-3StPYSgzuGS3XtfXvPDLEeaKHeb/k/JydQhRGf8RelWRmEDqlpxvLVLu88o3bTzmFSURUdgTfwLmEZ8Cy9ZqDw==}
 
-  '@mfg/lore@file:vendor/mfg-lore-0.0.0.tgz':
-    resolution: {integrity: sha512-2PIftN8CMtEQNEdR1MhpwYyEeEIvP8wPCRnDJukAbMafM1lKdqG99K7a6v8ZlwdD4LAdS0nGOyPzxkMt/wGSYQ==, tarball: file:vendor/mfg-lore-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/lore@0.1.0':
+    resolution: {integrity: sha512-l+wWy6ZmHiE6xNCjVR/1kGA5OXMdKDrWLnrNEx9FzF0xjeASBZileybLL5FFAwTu9c3GyPMT+UxZsAqOmQQdJg==}
 
-  '@mfg/marketplace@file:vendor/mfg-marketplace-0.0.0.tgz':
-    resolution: {integrity: sha512-MuZtGfVu32+sVXzjG2cEEvy4MBtutCyQ7JBH5uVPHVA+HtQVhTd7AB/Cg6fadoYLT1OOQaOzgwD3LS6Fz9QiQw==, tarball: file:vendor/mfg-marketplace-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/marketplace@0.1.0':
+    resolution: {integrity: sha512-CMdIZWPi25bx25XfnnPEPs8XHFluPV2KsXASJQGRnjovgEhzQlcCLeG7+fkYRbgezevTbHGY5fwSz5uz2GiTHw==}
 
-  '@mfg/pad@file:vendor/mfg-pad-0.0.0.tgz':
-    resolution: {integrity: sha512-Tu5J0zNniRL6KWRuXe7RBXhvMjpVwiWDZn+YDI+qtG2jwcZCNFqrJpJeR6S+IEozh+l/179LPqveuISQ2EC3Vg==, tarball: file:vendor/mfg-pad-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/pad@0.1.0':
+    resolution: {integrity: sha512-/W6P8yCB9K7mzQplh+4WFJPX4fHE9wZF04ESTqyVu27JCXsOkJK/6OLbu6dd47G+HxEOwPo3NCQne3msMFUnSQ==}
 
-  '@mfg/plans@file:vendor/mfg-plans-0.0.0.tgz':
-    resolution: {integrity: sha512-M7RNFNSQLzfLM4wlXi/erInR7yUEbDfdU7R44cD0eVrBfQrrWQ1UKrfJJWIm/6HhsOwhHR+xFLGJ0j1bAfgRcw==, tarball: file:vendor/mfg-plans-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/plans@0.1.0':
+    resolution: {integrity: sha512-FAxriQtvdXAZcqOhHMP17FGAJbYpTevJCs3KrWcihCzP8wRbSDf2aoKIaBcMtbm10EfZLHoTDCzn0XVLLLHTqg==}
 
-  '@mfg/posts@file:vendor/mfg-posts-0.0.0.tgz':
-    resolution: {integrity: sha512-qhAy42EoqKVsiTBnnLIvqSWC6YmmRfli8uJ8+n4HKsgfcx6P8MiBlpFkCXDNW45Xg4sQJFeu6W5UI/ZcmQcSNQ==, tarball: file:vendor/mfg-posts-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/posts@0.1.0':
+    resolution: {integrity: sha512-o4F6AMZb0q1QH1iJ5TtIFT9kkXRH0ecqeGJT7+XwcE3kPSSIE6wLf+myZhFUCTlDFnd2SM7kA5fmG97MxkMC6Q==}
 
-  '@mfg/realtime@file:vendor/mfg-realtime-0.0.0.tgz':
-    resolution: {integrity: sha512-OxMrFcSwT5kj3b/s1F7sCkq95TAT8gUMmvP2HOHCajnn4cxqZpmsvoqW1kzWRKTtNbTJFd/47PmdIHaDJkBtVw==, tarball: file:vendor/mfg-realtime-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/realtime@0.1.0':
+    resolution: {integrity: sha512-/elUqGYz9l/cVO6HmFHG7bKxj67YcYQTT/Z5Lf+1qBcKl1zL96tkDlLjdjwoCFmQcrju7zM5vwcJcMqBb05E0Q==}
 
-  '@mfg/resources@file:vendor/mfg-resources-0.1.0.tgz':
-    resolution: {integrity: sha512-byCr35uo64icevoZj7h+Et5q83j/vC2joaFdVGEjHyogqEjvFDZwd1R4wnwOzlQMjj86rQEly0qknDWKd+i9HA==, tarball: file:vendor/mfg-resources-0.1.0.tgz}
-    version: 0.1.0
+  '@memefreegames/resources@0.1.0':
+    resolution: {integrity: sha512-XnuxDTUojaglcynfwfX1yRodxv1jy+2sFMEl/Q5MeY63jAmpXNXA/aQLDBfbz7zo8J4kgRO1ZCzb3thC0FMlzw==}
 
-  '@mfg/results@file:vendor/mfg-results-0.0.0.tgz':
-    resolution: {integrity: sha512-Rd7iFzvekVK22EQCzdZNN+iZ6sMBGUfLP2uTSHrOQ5nCDGYrtcvZOU6UZrOiYWUa0fPY3pC1RlV8i/KQ+pIiow==, tarball: file:vendor/mfg-results-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/results@0.1.0':
+    resolution: {integrity: sha512-u5OXp9DS6XB+SVdcidV4m9jpyzr2iGdyslnf6WmPI6TmLmBWImeaIdWXi8Qq+oDCV3xIiklt7vrEN+t+nP28kA==}
 
-  '@mfg/rollback@file:vendor/mfg-rollback-0.0.0.tgz':
-    resolution: {integrity: sha512-RhtZalgOv3DI7NuGwHADmmyPilrB0NPOr5+fh6bM5cjXKh16g8bQGbGUrwIDKL6CWfMWbV3DrSi6K5pejF5PLg==, tarball: file:vendor/mfg-rollback-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/rollback@0.1.0':
+    resolution: {integrity: sha512-lLTQxmDfrV3WzvKU+pqRbOKgxP9hoDizkr1RpZ8AP7uurIj8rPJ+Gtld4Wb1M6l1mbMkhlWS+/osWtR/w0vBsw==}
 
-  '@mfg/sdk@file:vendor/mfg-sdk-0.0.0.tgz':
-    resolution: {integrity: sha512-4lVRaD9YAcpqM/RUcsFGrx7QgX8xDGbeoSPdAiSkh2hF+NPMufb+8dVmdERid4laTnwdeRRfUcIr6g9m0EA6ZQ==, tarball: file:vendor/mfg-sdk-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/sdk@0.1.0':
+    resolution: {integrity: sha512-pbh8ZX7E2WOYoszcFz78h9Koe8f6XfS5/ZE4/BDWUdkIeiSoexnuhhOhl+b+41xXtIwFbfOtcTFC+7oRbrXx0Q==}
     peerDependencies:
       vite: 8.3.5
     peerDependenciesMeta:
       vite:
         optional: true
 
-  '@mfg/settings@file:vendor/mfg-settings-0.0.0.tgz':
-    resolution: {integrity: sha512-pNrY1pBSNxU16AhJyaMm0Scdq10r2mbhiWug5P6mfKqC/EXgacT8c1eqVHB9QvuOKt8Wzm86dqmd87WBJdg8ZQ==, tarball: file:vendor/mfg-settings-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/settings@0.1.0':
+    resolution: {integrity: sha512-nKPNyAjn1EVpza9Bww/ZFbQsMjhwv902L2SC2hn6l35IGAfVLrN1GsX7yzdrtd/Oglj30k/fNCLREhTbe5oa6A==}
 
-  '@mfg/sim@file:vendor/mfg-sim-0.0.0.tgz':
-    resolution: {integrity: sha512-Nl55isRAZTVN8y2t/Ef3Gnz7YEx8sW0brk8pVyfndfIJ+rwxRjdAfnuVgNiS09KSLGQ8fsKtsWz9ExE/p+6ABw==, tarball: file:vendor/mfg-sim-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/sim@0.1.0':
+    resolution: {integrity: sha512-6x2aiO2FpXzKs3/6XGGpuEd5gPSr7+fHaz8ukhI5ki590PAc7Z858MsVXFrSxgh1H8vI6u5Hbzlqt3HpSs57pg==}
 
-  '@mfg/social@file:vendor/mfg-social-0.0.0.tgz':
-    resolution: {integrity: sha512-h9YzcBtXhJDYt1XkU6WCCEYDS+Bk2XCk4yQ5NRWn58ivCs8uENqkd74Di7RS+GiZsz7PZuJjavS3bbc5p0jJCA==, tarball: file:vendor/mfg-social-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/social@0.1.0':
+    resolution: {integrity: sha512-0dTnF6YD2JUz9161OjzsTKXcElSI3At/wy6gKT/bLZjNFdHjZLtUj757jo5Cg10xs3MAsZYj5jFu6gQ+JF3yFw==}
 
-  '@mfg/tuning@file:vendor/mfg-tuning-0.0.0.tgz':
-    resolution: {integrity: sha512-FsQNx5JX4QPcFzuBtjE15CN1jmwPzdDpu65D3XfnXuSLWJbl1mVQX8e1wjl/w6y9cx9ncuYfPwsJkHp+GKISuw==, tarball: file:vendor/mfg-tuning-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/tuning@0.1.0':
+    resolution: {integrity: sha512-L7+Ea60zhCjaCIFc/+npZ/DjLfyGjnaRqre3/LJx8+mPqB/LxJYHuX7ZvUjpz7PE8tv3rB7vCDpT3DLBaQPrAQ==}
 
-  '@mfg/ui@file:vendor/mfg-ui-0.0.0.tgz':
-    resolution: {integrity: sha512-YLFkSj6uTRvZsj8Eq0EgB6T9fL5qpIzQYAu+FxHf1SiHY5MwvOAcOKvWoZKUJxUEljg4ybno3HJGOZyKDcLd/w==, tarball: file:vendor/mfg-ui-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/ui@0.1.0':
+    resolution: {integrity: sha512-N8cc/ucJ94S9pNUccUYSSlUQmhZBq+oTYq2iTSj1K7OonFiMEC78Y1qVOAaIHDQWDHwfA0yapqA0W3NvGctWBA==}
 
-  '@mfg/voice@file:vendor/mfg-voice-0.0.0.tgz':
-    resolution: {integrity: sha512-H4y64CZySfh7dUADALfO93Ka0ji9jF74qQDzPG57cH9txYukZoLpfPVWORGNT7AkYbtQAgs7KMr1CAXvY4+7xQ==, tarball: file:vendor/mfg-voice-0.0.0.tgz}
-    version: 0.0.0
+  '@memefreegames/voice@0.1.0':
+    resolution: {integrity: sha512-Ovnj0Wr4HyCzAxaSk0OBL26zGsf9r6lbA2BaTdmK9qI9gZatbamjEFRlFbPmDCwCY2tYD4Ajr6arMhK5zIU6Mw==}
 
   '@napi-rs/wasm-runtime@1.2.6':
     resolution: {integrity: sha512-mRyDmEw9/fCDXCGfL1sbgIw/GUK0PVxRW4YwgPN61F3LQ+fSyoBFarJVzgGyhF6kRzEQZ0FejDqm4WLXSeqQmw==}
@@ -1749,25 +1694,25 @@ snapshots:
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@mfg/achievements@file:vendor/mfg-achievements-0.0.0.tgz':
+  '@memefreegames/achievements@0.1.0':
     dependencies:
-      '@mfg/leaderboards': file:vendor/mfg-leaderboards-0.0.0.tgz
+      '@mfg/leaderboards': '@memefreegames/leaderboards@0.1.0'
       zod: 4.6.7
 
-  '@mfg/ai@file:vendor/mfg-ai-0.0.0.tgz':
+  '@memefreegames/ai@0.1.0':
     dependencies:
-      '@mfg/identity': file:vendor/mfg-identity-0.0.0.tgz
-      '@mfg/input': file:vendor/mfg-input-0.0.0.tgz
-      '@mfg/sim': file:vendor/mfg-sim-0.0.0.tgz
+      '@mfg/identity': '@memefreegames/identity@0.1.0'
+      '@mfg/input': '@memefreegames/input@0.1.0'
+      '@mfg/sim': '@memefreegames/sim@0.1.0'
 
-  '@mfg/analytics@file:vendor/mfg-analytics-0.0.0.tgz':
+  '@memefreegames/analytics@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/character@file:vendor/mfg-character-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@memefreegames/character@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
-      '@mfg/input': file:vendor/mfg-input-0.0.0.tgz
-      '@mfg/ui': file:vendor/mfg-ui-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))
+      '@mfg/input': '@memefreegames/input@0.1.0'
+      '@mfg/ui': '@memefreegames/ui@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))'
       zod: 4.6.7
     optionalDependencies:
       react: 19.3.1
@@ -1776,91 +1721,92 @@ snapshots:
       - '@types/react-dom'
       - react-dom
 
-  '@mfg/identity@file:vendor/mfg-identity-0.0.0.tgz':
+  '@memefreegames/identity@0.1.0':
     dependencies:
       '@simplewebauthn/browser': 13.3.0
       zod: 4.6.7
 
-  '@mfg/input@file:vendor/mfg-input-0.0.0.tgz':
+  '@memefreegames/input@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/leaderboards@file:vendor/mfg-leaderboards-0.0.0.tgz':
+  '@memefreegames/leaderboards@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/loot@file:vendor/mfg-loot-0.0.0.tgz':
+  '@memefreegames/loot@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/lore@file:vendor/mfg-lore-0.0.0.tgz':
+  '@memefreegames/lore@0.1.0':
     dependencies:
-      '@mfg/posts': file:vendor/mfg-posts-0.0.0.tgz
+      '@mfg/posts': '@memefreegames/posts@0.1.0'
       zod: 4.6.7
 
-  '@mfg/marketplace@file:vendor/mfg-marketplace-0.0.0.tgz':
+  '@memefreegames/marketplace@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/pad@file:vendor/mfg-pad-0.0.0.tgz':
+  '@memefreegames/pad@0.1.0':
     dependencies:
-      '@mfg/ai': file:vendor/mfg-ai-0.0.0.tgz
-      '@mfg/input': file:vendor/mfg-input-0.0.0.tgz
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
-      '@mfg/settings': file:vendor/mfg-settings-0.0.0.tgz
+      '@mfg/ai': '@memefreegames/ai@0.1.0'
+      '@mfg/input': '@memefreegames/input@0.1.0'
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
+      '@mfg/settings': '@memefreegames/settings@0.1.0'
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
 
-  '@mfg/plans@file:vendor/mfg-plans-0.0.0.tgz':
+  '@memefreegames/plans@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/posts@file:vendor/mfg-posts-0.0.0.tgz':
+  '@memefreegames/posts@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/realtime@file:vendor/mfg-realtime-0.0.0.tgz':
+  '@memefreegames/realtime@0.1.0':
     dependencies:
-      '@mfg/ai': file:vendor/mfg-ai-0.0.0.tgz
-      '@mfg/analytics': file:vendor/mfg-analytics-0.0.0.tgz
-      '@mfg/settings': file:vendor/mfg-settings-0.0.0.tgz
+      '@mfg/ai': '@memefreegames/ai@0.1.0'
+      '@mfg/analytics': '@memefreegames/analytics@0.1.0'
+      '@mfg/identity': '@memefreegames/identity@0.1.0'
+      '@mfg/settings': '@memefreegames/settings@0.1.0'
       zod: 4.6.7
 
-  '@mfg/resources@file:vendor/mfg-resources-0.1.0.tgz':
+  '@memefreegames/resources@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/results@file:vendor/mfg-results-0.0.0.tgz':
+  '@memefreegames/results@0.1.0':
     dependencies:
-      '@mfg/achievements': file:vendor/mfg-achievements-0.0.0.tgz
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
+      '@mfg/achievements': '@memefreegames/achievements@0.1.0'
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
       zod: 4.6.7
 
-  '@mfg/rollback@file:vendor/mfg-rollback-0.0.0.tgz':
+  '@memefreegames/rollback@0.1.0':
     dependencies:
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
 
-  '@mfg/sdk@file:vendor/mfg-sdk-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(vite@8.3.5(@types/node@26.6.5))':
+  '@memefreegames/sdk@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(vite@8.3.5(@types/node@26.6.5))':
     dependencies:
-      '@mfg/achievements': file:vendor/mfg-achievements-0.0.0.tgz
-      '@mfg/ai': file:vendor/mfg-ai-0.0.0.tgz
-      '@mfg/analytics': file:vendor/mfg-analytics-0.0.0.tgz
-      '@mfg/character': file:vendor/mfg-character-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
-      '@mfg/identity': file:vendor/mfg-identity-0.0.0.tgz
-      '@mfg/input': file:vendor/mfg-input-0.0.0.tgz
-      '@mfg/leaderboards': file:vendor/mfg-leaderboards-0.0.0.tgz
-      '@mfg/loot': file:vendor/mfg-loot-0.0.0.tgz
-      '@mfg/lore': file:vendor/mfg-lore-0.0.0.tgz
-      '@mfg/marketplace': file:vendor/mfg-marketplace-0.0.0.tgz
-      '@mfg/plans': file:vendor/mfg-plans-0.0.0.tgz
-      '@mfg/posts': file:vendor/mfg-posts-0.0.0.tgz
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
-      '@mfg/resources': file:vendor/mfg-resources-0.1.0.tgz
-      '@mfg/results': file:vendor/mfg-results-0.0.0.tgz
-      '@mfg/settings': file:vendor/mfg-settings-0.0.0.tgz
-      '@mfg/social': file:vendor/mfg-social-0.0.0.tgz
-      '@mfg/tuning': file:vendor/mfg-tuning-0.0.0.tgz
-      '@mfg/voice': file:vendor/mfg-voice-0.0.0.tgz
+      '@mfg/achievements': '@memefreegames/achievements@0.1.0'
+      '@mfg/ai': '@memefreegames/ai@0.1.0'
+      '@mfg/analytics': '@memefreegames/analytics@0.1.0'
+      '@mfg/character': '@memefreegames/character@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)'
+      '@mfg/identity': '@memefreegames/identity@0.1.0'
+      '@mfg/input': '@memefreegames/input@0.1.0'
+      '@mfg/leaderboards': '@memefreegames/leaderboards@0.1.0'
+      '@mfg/loot': '@memefreegames/loot@0.1.0'
+      '@mfg/lore': '@memefreegames/lore@0.1.0'
+      '@mfg/marketplace': '@memefreegames/marketplace@0.1.0'
+      '@mfg/plans': '@memefreegames/plans@0.1.0'
+      '@mfg/posts': '@memefreegames/posts@0.1.0'
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
+      '@mfg/resources': '@memefreegames/resources@0.1.0'
+      '@mfg/results': '@memefreegames/results@0.1.0'
+      '@mfg/settings': '@memefreegames/settings@0.1.0'
+      '@mfg/social': '@memefreegames/social@0.1.0'
+      '@mfg/tuning': '@memefreegames/tuning@0.1.0'
+      '@mfg/voice': '@memefreegames/voice@0.1.0'
       zod: 4.6.7
     optionalDependencies:
       vite: 8.3.5(@types/node@26.6.5)
@@ -1871,36 +1817,36 @@ snapshots:
       - react-dom
       - three
 
-  '@mfg/settings@file:vendor/mfg-settings-0.0.0.tgz':
+  '@memefreegames/settings@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/sim@file:vendor/mfg-sim-0.0.0.tgz': {}
+  '@memefreegames/sim@0.1.0': {}
 
-  '@mfg/social@file:vendor/mfg-social-0.0.0.tgz':
+  '@memefreegames/social@0.1.0':
     dependencies:
-      '@mfg/identity': file:vendor/mfg-identity-0.0.0.tgz
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
+      '@mfg/identity': '@memefreegames/identity@0.1.0'
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
       zod: 4.6.7
 
-  '@mfg/tuning@file:vendor/mfg-tuning-0.0.0.tgz':
+  '@memefreegames/tuning@0.1.0':
     dependencies:
       zod: 4.6.7
 
-  '@mfg/ui@file:vendor/mfg-ui-0.0.0.tgz(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))':
+  '@memefreegames/ui@0.1.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))':
     dependencies:
-      '@mfg/achievements': file:vendor/mfg-achievements-0.0.0.tgz
-      '@mfg/ai': file:vendor/mfg-ai-0.0.0.tgz
-      '@mfg/analytics': file:vendor/mfg-analytics-0.0.0.tgz
-      '@mfg/identity': file:vendor/mfg-identity-0.0.0.tgz
-      '@mfg/input': file:vendor/mfg-input-0.0.0.tgz
-      '@mfg/leaderboards': file:vendor/mfg-leaderboards-0.0.0.tgz
-      '@mfg/lore': file:vendor/mfg-lore-0.0.0.tgz
-      '@mfg/marketplace': file:vendor/mfg-marketplace-0.0.0.tgz
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
-      '@mfg/settings': file:vendor/mfg-settings-0.0.0.tgz
-      '@mfg/social': file:vendor/mfg-social-0.0.0.tgz
-      '@mfg/voice': file:vendor/mfg-voice-0.0.0.tgz
+      '@mfg/achievements': '@memefreegames/achievements@0.1.0'
+      '@mfg/ai': '@memefreegames/ai@0.1.0'
+      '@mfg/analytics': '@memefreegames/analytics@0.1.0'
+      '@mfg/identity': '@memefreegames/identity@0.1.0'
+      '@mfg/input': '@memefreegames/input@0.1.0'
+      '@mfg/leaderboards': '@memefreegames/leaderboards@0.1.0'
+      '@mfg/lore': '@memefreegames/lore@0.1.0'
+      '@mfg/marketplace': '@memefreegames/marketplace@0.1.0'
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
+      '@mfg/settings': '@memefreegames/settings@0.1.0'
+      '@mfg/social': '@memefreegames/social@0.1.0'
+      '@mfg/voice': '@memefreegames/voice@0.1.0'
       marked: 18.1.1
       qrcode: 1.5.4
       radix-ui: 1.6.7(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -1910,12 +1856,12 @@ snapshots:
       - '@types/react-dom'
       - react-dom
 
-  '@mfg/voice@file:vendor/mfg-voice-0.0.0.tgz':
+  '@memefreegames/voice@0.1.0':
     dependencies:
-      '@mfg/realtime': file:vendor/mfg-realtime-0.0.0.tgz
-      '@mfg/rollback': file:vendor/mfg-rollback-0.0.0.tgz
-      '@mfg/settings': file:vendor/mfg-settings-0.0.0.tgz
-      '@mfg/social': file:vendor/mfg-social-0.0.0.tgz
+      '@mfg/realtime': '@memefreegames/realtime@0.1.0'
+      '@mfg/rollback': '@memefreegames/rollback@0.1.0'
+      '@mfg/settings': '@memefreegames/settings@0.1.0'
+      '@mfg/social': '@memefreegames/social@0.1.0'
       zod: 4.6.7
 
   '@napi-rs/wasm-runtime@1.2.6(@emnapi/core@2.0.0-beta.2)(@emnapi/runtime@2.0.0-beta.2)':
